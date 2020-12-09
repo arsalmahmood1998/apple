@@ -2,6 +2,10 @@ body{
     background-color: black;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar{
     background-color: black;
 }
@@ -29,6 +33,38 @@ body{
     color: #fff;
     background-color: #000; 
     -moz-border-radius: 3px; -webkit-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px;
+}
+
+@keyframes navbar {
+  from {
+    height: 0px;
+  }
+  
+  to {
+    height: 100%;
+  }
+}
+
+
+#gif1{
+    
+    width:800px;
+    height: 500;
+    margin-left: 200px;
+}
+
+#gif2{
+    width:600px;
+    height: 400;
+}
+
+#gif4{
+    width:600px;
+    height: 400;
+}
+.navbar{
+animation: navbar 2s ease-in-out forwards;
+
 }
 
 #logo {
@@ -136,11 +172,11 @@ div.sticky {
     color: white
 }
 
-#p1 > sup> a{
+#s1{
     color: gray
 }
 
-#p1 > sup> a:hover{
+#s1:hover{
     color: blue;
     text-decoration: none;
 }
@@ -186,6 +222,10 @@ div.sticky {
     text-decoration:underline;
 }
 
+.icon-copy > i:hover{
+    text-decoration:underline;
+}
+
 @keyframes  h1{
   from {
     font-size: 0px;
@@ -198,7 +238,7 @@ div.sticky {
 
 #container2 > h1{
     text-align: center;
-    animation: h1 6s ease-in-out forwards;
+    animation: h1 5s ease-in-out forwards;
 }
 
 video {
@@ -240,11 +280,126 @@ video {
     animation: h4 3s ease-in-out forwards;
 }
 
+
+#container3, #container4 {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.button1 {
+    height: 50px;
+    width: 400px;
+    border-radius: 25px;
+  background-color: black; 
+  color: white; 
+  border: 1px solid white;
+  font-size: 18px;
+   text-align: center;
+   margin-left: 480px;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+
+#container4 > img{
+    float: left;
+}
+
+#container5{
+    padding-top: 200px;
+    text-align: center;
+}
+
+#container5 > h3 {
+    color: #2B547E;
+}
+
+#container5 > .button1 {
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: black; 
+    color: gray; 
+    border: 1px solid #2B547E;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+#container5 > .button1:hover {
+  background-color: gray;
+  color: black;
+  font-weight: bold;
+}
+
+
+#image1 , #image2{
+    margin-top: 300px;
+}
+
+#image2{
+    margin-left: 0px;
+}
+
+#row2{
+    margin-top: 300px;  
+}
+
+#image3
+{
+  background-image: url("../images/image3.jpg");
+  margin-top: 200px;
+  background-repeat: repeat-y;
+  height: 800px;
+  margin-left: 300px;
+}
+
+#image3 > h1{
+    padding-top: 400px;
+    display: block;
+}
+
+#image3 > h3 {
+    color: gray;
+}
+
+}
+
+#gif6{
+    width: 600px;
+}
+
+#container6 > h1 {
+    padding-left: 100px;
+}
+
+#container6 >h4 {
+    padding-left: 100px;
+    color: gray;
+}
+
+
+#container7 {
+    padding-top: 300px;
+}
+
+#ct71 {
+    padding-left: 320px;
+    color: gray;
+}
+
+#ct72{
+    padding-left: 400px;
+}
 @media(max-width: 767px){
 
     .navbar{
         padding:0px;
-    }
+        }
 
     #wrapper{
         padding:0;>
@@ -264,6 +419,57 @@ video {
         text-align: center;
         margin-left:0px;
         margin-right: 0px;
+        background-color: #0C090A;
+        height:150px;
     }
 
+    #row2{
+    margin-top: 100px;  
+}
+    .links-inline >a >span{
+        margin-left: 0px;
+    }
+
+    #gif1{
+        background-size: 100%;
+    }
+
+    #container1 > ul>  h3{
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+}
+
+    #container1 > ul >button{
+        border-radius: 12px;
+        font-size: 13px;
+    }
+
+    #container1 > ul>  
+    {
+        color: white
+    }
+
+    #container2 > #p1{
+        margin-left: 20px;
+    }
+
+    .button1 {
+        width:50%;
+       display: center;
+   }
+
+    #container4 > #image1,#image2{
+    margin-left: 0px;
+}
  }
+
+   .#container1 select {
+      display: none;
+    }
+    
+    @media (max-width: 960px) {
+      #container1 ul     { display: none; }
+      #container1 select { display: inline-block; }
+    }
