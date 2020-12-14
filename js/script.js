@@ -3,7 +3,6 @@
       // Create the dropdown base
       $("<select />").appendTo("container sticky");
       
-      // Create default option "Go to..."
       $("<option />", {
          "selected": "selected",
          "value"   : "",
@@ -26,3 +25,6 @@
       });
 	 
 	 });
+
+
+
