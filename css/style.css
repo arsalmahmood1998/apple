@@ -36,6 +36,9 @@ html {
     -moz-border-radius: 3px; -webkit-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px;
 }
 
+.fade {
+  opacity: 1;
+}
 @keyframes navbar {
   from {
     height: 0px;
@@ -699,7 +702,7 @@ video {
 }
 
 .shadow {
-    box-shadow:0 0 25px #187bcd !important;
+    box-shadow:0 0 30px #187bcd !important;
     border-color:transparent !important;
 }
 
@@ -707,6 +710,347 @@ video {
     font-size: 30px;
     color:#187bcd;
 }
+
+#container18{
+    display: center;
+    background-image: url("../images/image8.jpg");
+    margin-top: 200px;
+    background-size: 100%;
+    height: 1000px;
+    width: 1000px;
+    background-repeat: repeat-y;
+    margin-left: 300px;
+}
+
+#container18 > h1 {
+     font-size: 3em;
+}
+
+.transform{
+    transform: translate(0,-500px);
+}
+
+.top{
+ top:500px;
+ transform: translateY(-50%) 
+}
+
+#container19 > p > span{
+    color: white;
+}
+
+#container19 > p {
+    color: gray;
+    font-size: 1.45em;
+    text-align: center;
+    margin-left: 450px;
+}
+
+#container20{
+    display: center;
+    margin-left: 300px;
+}
+
+#container21 > p {
+    color: gray;
+    font-size: 1.45em;
+    text-align: left;
+    margin-left: 450px;
+}
+
+#container22 > .col-md-6 > p {
+    color: gray;
+    text-align: left;
+    margin-top: 250px;
+    margin-left: 250px;
+    display: center;
+    font-size: 1.4em;
+}
+
+#container22 > .col-md-6 > p >span{
+    color: white;
+}
+
+#container22 > .col-md-6 > .button1 {
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: black; 
+    color: white; 
+    border: 1px solid #187bcd;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+#container22 >.col-md-6 > .button1:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+#container23 > .row{
+    padding-top: 300px;
+}
+
+#container23 >.row > h1{
+   margin-left: 300px;
+   font-size: 4em;
+}
+
+#container23 > .col-md-6{
+    float: left;
+}
+
+#container23 > .col-md-6 > p{
+    padding-top: 50%;
+    padding-left: 30%;
+    font-size: 1.25em;
+    color: gray;
+
+}
+
+#container24{
+    padding-top: 800px;
+} 
+
+#container24 > .row{
+    padding-top: 20%;
+}
+
+ #container24 >.row > h1{
+   font-size: 3.5em;
+   margin-left: 250px;
+
+}
+
+ #container24 > img{
+    display: center;
+}
+
+ #container25 > .row > p >span{
+    color: white;
+}
+
+ #container25 > .row > p{
+    padding-left: 25%;
+    color: gray;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+#container25 > .col-md-6{
+    padding-top: 10%;
+    float: left;
+    font-size: 1.5em;
+    color: gray;
+}
+
+#container25 > .col-md-6 >p{
+    padding-top: 50%;
+}
+
+#container26 > img{
+    padding-left: 17%;
+}
+#container26 > .row > p{
+    color: gray;
+    font-size: 1.5em;
+    padding-top: 5%;
+    padding-left: 20%;
+}
+
+#container27 > .col-md-6{
+    float: left;
+}
+
+#container27 > .col-md-6 > p{
+    padding-left: 25%;
+    padding-top: 50%;
+    font-size: 1.45em;
+    color: gray;
+}
+
+#container27 > .col-md-6 > .button1 {
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: black; 
+    color: white; 
+    border: 1px solid #187bcd;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+#container27 >.col-md-6> .button1:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+#container28{
+    padding-top: 80%;
+}
+
+#container28 > .row > h1{
+    font-size: 5em;
+    padding-left: 10%;
+}
+
+#container28 > .row > img{
+    padding-left: 2%;
+}
+
+#container28 > .row > p{
+    padding-left: 23%;
+    padding-top: 5%;
+    font-size: 1.45em;
+    color: gray;
+    font-weight: bold;
+}
+
+#container28 > .row > p > span{
+    color: white;
+}
+
+#container29 > img{
+    padding-left: 11%;
+}
+
+#container29 > .row > p{
+    padding-left: 23%;
+    padding-top: 5%;
+    font-size: 1.45em;
+    color: gray;
+    font-weight: bold;
+}
+
+#container29 > .row > p > span{
+    color: white;
+}
+
+#container30 > .row > h1{
+    font-size: 5em;
+    padding-left: 10%;
+    font-weight: bold;
+}
+
+#container30 > #secondrow{
+    padding-top: 150px;
+}
+
+
+#container30 > .row > .col-md-4 > img{
+    padding-left: 100px;
+}
+
+#container30 > .row > .col-md-8{
+    padding-left: 200px;
+}
+
+#container30 > .row > .col-md-8> .col{
+    float: left;
+}
+
+#container30 > .row > .col-md-8> #leftcolumn{
+    margin-right: 0;
+}
+
+#container30 > .row > .col-md-8> #leftcolumn >h1{
+    padding-top: 20%;
+    font-weight: bold;
+}
+
+#container30 > .row > .col-md-8 > #leftcolumn > p{
+    font-size: 1.25em;
+    color: gray;
+    padding-top: 5%;
+    font-weight: bold;
+}
+
+#container30 > .row > .col-md-8 > #leftcolumn{
+    width:200px;
+}
+
+#container30 > .row > .col-md-8 > #leftcolumn > #blue{
+    padding-top: 0;
+    color: #187bcd;
+}
+#container30 > .row > .col-md-8 > #leftcolumn > #gray{
+    padding-top: 0;
+}
+
+#container30 > .row > .col-md-8 > #centercolumn{
+    width: 50px;
+}
+
+#container30 > .row > .col-md-8 > #centercolumn > hr{
+    height: 400px;
+    width: 0;
+    margin-top: 50px;
+    border: 1px solid white;
+}
+
+#container30 > .row > .col-md-8 > #rightcolumn{
+    width:400px;
+}
+
+#container30 > .row > .col-md-8> #rightcolumn >h1{
+    padding-top: 10%;
+    font-weight: bold;
+}
+
+#container30 > .row > .col-md-8 > #rightcolumn > p{
+    font-size: 1.25em;
+    color: gray;
+    font-weight: bold;
+}
+
+#container30 > .row > .col-md-8 > #rightcolumn > #blue{
+    padding-top: 0;
+    color: #187bcd;
+}
+#container30 > .row > .col-md-8 > #rightcolumn > #gray{
+    padding-top: 0;
+}
+
+.row > .button > span {
+    float: left;
+}
+
+#sliderbutton{
+    width:330px;
+    text-align: left; 
+    height: 50px;  
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: #363636;
+    border: 1px solid transparent;
+}
+
+#leftbutton{
+    display: inline-block;
+    width: 100px;
+    border-right: 1px solid white;
+}
+
+#centerbutton{
+    display: inline-block;
+   width: 100px; 
+   text-align: center;
+   border-right: 1px solid white;
+}
+
+#sliderbutton > #rightbutton{
+    display: inline-block;
+    width: 100px;
+    margin-right: 0;
+    text-align: right;
+    padding-right: 0;
+}
+
 
 @media(max-width: 767px){
  .navbar{
