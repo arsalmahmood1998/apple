@@ -41,24 +41,71 @@ $('.hideme').each( function(i){
 
 
     /* If the object is completely visible in the window, fade it it */
-    if( bottom_of_window - 500 > bottom_of_object ){
+    if( bottom_of_window-400> bottom_of_object ){
 
         $(this).css("opacity", 1 - $(window).scrollTop() / 100);
     }
     else{
        $(this).css("opacity", 1 );
     }
-    console.log(bottom_of_object);
-  console.log(bottom_of_window);
 }); 
 });
 });
 
 
 function myFunction() {
-    document.getElementById('leftbutton').style.cssText = 
-    'background-color:white;color:black;display:inline-block;width:100px;height:50px;border-radius:50px;text-align:center;';
+  document.getElementById("left2").innerHTML = "13 mm focal length";
+  document.getElementById("left3").innerHTML = "120º field of view";
+  document.getElementById("left4").innerHTML = "ƒ/2.4 aperture";
+  document.getElementById("left5").innerHTML = "5-element lens";
+  document.getElementById("left6").innerHTML = "Lens correction";
+  document.getElementById("left7").innerHTML = "";
+  document.getElementById("right2").innerHTML = "13 mm focal length";
+  document.getElementById("right3").innerHTML = "120º field of view";
+  document.getElementById("right4").innerHTML = "ƒ/2.4 aperture";
+  document.getElementById("right5").innerHTML = "5-element lens";
+  document.getElementById("right6").innerHTML = "Lens correction";
+  document.getElementById("right7").innerHTML = "";
+
 }
+
+function function1() {
+  document.getElementById("left2").innerHTML = "26 mm focal length";
+  document.getElementById("left3").innerHTML = "1.4 µm pixels";
+  document.getElementById("left4").innerHTML = "ƒ/1.6 aperture";
+  document.getElementById("left5").innerHTML = "100% Focus Pixels";
+  document.getElementById("left6").innerHTML = "7-element lens";
+  document.getElementById("left7").innerHTML = "OIS";
+  document.getElementById("right2").innerHTML = "13 mm focal length";
+  document.getElementById("right3").innerHTML = "1.7 µm pixels";
+  document.getElementById("right4").innerHTML = "ƒ/1.6 aperture";
+  document.getElementById("right5").innerHTML = "100% Focus Pixels";
+  document.getElementById("right6").innerHTML = "7-element lens";
+  document.getElementById("right7").innerHTML = "Sensor-shift OIS";
+}
+
+function function2() {
+  document.getElementById("left2").innerHTML = "52 mm focal length";
+  document.getElementById("left3").innerHTML = "ƒ/2.0 aperture";
+  document.getElementById("left4").innerHTML = "Focus Pixels";
+  document.getElementById("left5").innerHTML = "6-element lens";
+  document.getElementById("left6").innerHTML = "OIS";
+  document.getElementById("left7").innerHTML = "";
+  document.getElementById("right2").innerHTML = "65 mm focal length";
+  document.getElementById("right3").innerHTML = "1.7 µm pixels";
+  document.getElementById("right4").innerHTML = "ƒ/2.2 aperture";
+  document.getElementById("right5").innerHTML = "Focus Pixels";
+  document.getElementById("right6").innerHTML = "6-element lens";
+  document.getElementById("right7").innerHTML = "OIS";
+  }
+
+$(document).ready(function(event){
+  $('form input').click(function(event){
+    $('form > div').css('transform', 'translateX('+$(this).data('location')+')');
+    $(this).parent().siblings().removeClass('selected');
+    $(this).parent().addClass('selected');
+  });
+});
 
 // $(document).ready(function(){
 //   $(".article").scroll(function(){
@@ -66,12 +113,6 @@ function myFunction() {
 //   });
 //   $(".article").scroll(function(){
 //     $("#cont18h1").slideDown();
-//   });
-// });
-
-// $(document).ready(function(){
-//   $("#container18").scroll(function(){
-//     $("#cont18h1").slideUp("slow");
 //   });
 // });
 
@@ -90,3 +131,8 @@ function myFunction() {
 //     console.log(bottom_of_window);
 // }); 
 // }); 
+
+// $(document).ready(function(){
+//   $(".btn1").scroll(function(){
+//     $("article").fadeOut();
+//   });
