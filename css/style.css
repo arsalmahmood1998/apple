@@ -128,6 +128,10 @@ animation: navbar 2s ease-in-out forwards;
     color: white;
     padding: 0;
 }
+
+.sticky{
+    background-color: 
+}
   
 @keyframes FadeIn {
   from {
@@ -158,7 +162,9 @@ div.sticky {
   position: sticky;
   top: 0;
   font-size: 20px;
-  background-color: black;
+  background-color: #0b0e10;
+  opacity: 0.7;
+  max-width: 1400px;
 }
 
 #container1 > ul>  h3{
@@ -1123,8 +1129,378 @@ form label.selected {
     height: 100px;
 }
 
-#container33 >h2 {
-    display: center;
+#container33 >h3{
+    text-align: center;
+    color: #187bcd;
+    font-weight: bold;
+}
+#container33 >h4{
+    text-align: left;
+    color: gray;
+    font-weight: bold;
+    padding-left: 25%;
+}
+
+
+#container33 >.button1 {
+
+    height:40px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: black; 
+    color: white; 
+    border: 1px solid #187bcd;
+    font-size: 20px;
+    text-align: center;
+    margin-left:45%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#container33 > .button1:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+#container33 > .fa-tv{
+    padding-top: 10%;
+    padding-left: 25%;
+}
+
+#container33 > p{
+    padding-left: 25%;
+    color: gray;
+    font-weight: bold;
+}
+#container33 > p > span{
+    color: white;
+}
+
+#container34{
+    padding-top: 25%;
+}
+
+#container34 > h1{
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+#container35 > p{
+    padding-top: 20%;
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+}
+
+#container35 > .row{
+    padding: 0;
+    height: 100px;
+}
+
+#container35 > .row > h3{
+    color: #187bcd;
+    padding-left: 35%;
+    float: top;
+}
+
+#container35 > .row > hr{
+    border: 1px solid #187bcd;
+    width: 400px;
+    float: top;
+    padding-left: 3%;
+}
+
+#container36{
+    padding-top: 500px;
+}
+
+#container36 > h1{
+    font-weight: bold;
+    padding-left: 15%;
+    font-size: 70px;
+}
+
+#container36 > #gray{
+    color: gray;
+}
+
+#container36 > img{
+    padding-left: 15%;
+}
+
+#container36 > p{
+    padding-top: 10%;
+    color:gray;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#container37{
+    padding-top: 300px;
+}
+
+#container37 > h1{
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#container37 > #gray{
+    color: gray;
+}
+
+#container37 > img{
+    margin-left: 20%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#container37 > p{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#container37 > .row > #innercontainer{
+    width: 500px;
+    height: 150px;
+    float: left;
+    font-weight: bold;
+    background-color: #0b0e10;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+#container37 > .row > #innercontainer > h1{
+    color: #187bcd;
+    text-align: center;
+    margin: 0;
+    margin-top:0;
+    font-size: 50px;
+}
+
+#container37 > .row > #innercontainer> p{
+    text-align:center;
+}
+
+#container37 > #blue{
+    padding-top: 100px;
+    color: #187bcd;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#container38{
+    padding-top: 300px;
+}
+
+#container38 > h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+#container38> #gray{
+    color:gray;
+}
+
+#container38> img{
+    padding-left: 15%;
+}
+
+#container39{
+    padding-top: 100px;
+}
+
+#container39 > h1{
+   text-align:center;
+   font-size: 90px;
+}
+#container39 > img{
+    padding-left: 15%;
+}
+#container39 > p{
+    text-align:center;
+    color:gray;
+    font-size: 20px;
+}
+
+#container40{
+    text-align: center;
+}
+#container40 > h1{
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+#container40 > h4{
+    padding-top: 50px;
+    color: gray;
+}
+
+#container41{
+    padding-top: 300px;
+}
+
+#container41 >.row > .col-md-6> img{
+    width: 480px;
+    height: 735px;
+}
+
+#container41 >.row > .col-md-6{
+    text-align: center;
+}
+
+#container41 >.row > .col-md-6 > h1{
+    padding-top: 70%;
+}
+
+#container41 >.row > .col-md-6 > p{
+    color: gray;
+}
+
+#container42{
+    margin-top: 30%;
+    height: 600px;
+    background-color: #0b0e10;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+}
+
+#container42 > h1{
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+#container42 > h1{
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+#container43{
+    padding-top: 35%;
+    font-weight: bold;
+}
+
+#container43 > h1{
+    font-weight: bold;
+    margin-left: 15%;
+}
+
+#container43 > img{
+    margin-left: 10%;
+}
+
+#container44{
+    padding-top: 20%;
+    color: ;
+}
+
+#container44 > h3{
+    margin-left: 20%;
+    color: #187bcd;
+}
+
+#container44 > p{
+    font-size: 1.1em;
+    padding-top: 10%;
+    margin-left: 20%;
+    color: gray;
+    font-weight: bold;
+}
+
+#container44 > a{
+    font-weight: bold;
+   margin-top: 100px;
+   margin-left: 20%;
+}
+
+#container45{
+    padding-top: 30%;
+}
+
+#container45 > h1{
+    text-align: center;
+}
+
+#container45 > .row{
+    width: 800px;
+    margin-left: 20%;
+}
+
+#container45 > .row > .col-md-4 >#heading{
+    color:white;
+    font-weight: bold;
+}
+
+#container45 > .row > .col-md-4 > p{
+    color: gray;
+}
+
+#container46{
+    margin-top: 10%;
+    background-color: #0b0e10;
+}
+
+#container46> .row > .col-md-6{
+    margin-top: 200px;
+}
+
+#container46> .row> .col-md-6 > img{
+    margin-left: 20%;
+}
+
+#container46> .row > .col-md-6 > h1,p{
+    padding-top: 10%
+    font-weight: bold;
+    text-align: center
+}
+
+#container46> .row > .col-md-6 >p{
+    font-weight: bold;
+    color:gray;
+}
+
+#container46> .row > .col-md-6 > .row{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+#container46> .row > .col-md-6 > .row > .button{
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}   
+
+#container46> .row > .col-md-6 > .row > #blue{
+    background-color: #0031C470;
+}
+
+#container46> .row > .col-md-6 > .row > #gold{
+    background-color: #D7BE69;
+}
+
+#container46> .row > .col-md-6 > .row > #graphite{
+    background-color: #383428; 
+}
+
+#container46> .row > .col-md-6 > .row > #silver{
+    background-color: #C0C0C0;   
 }
 
 

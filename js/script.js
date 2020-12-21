@@ -53,6 +53,8 @@ $('.hideme').each( function(i){
 });
 
 
+
+
 function myFunction() {
   document.getElementById("left2").innerHTML = "13 mm focal length";
   document.getElementById("left3").innerHTML = "120º field of view";
@@ -106,6 +108,7 @@ $(document).ready(function(event){
     $(this).parent().addClass('selected');
   });
 });
+
 
 // $(document).ready(function(){
 //   $(".article").scroll(function(){
