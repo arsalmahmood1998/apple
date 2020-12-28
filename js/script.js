@@ -109,3 +109,8 @@ $(document).ready(function(event){
   });
 });
 
+function image1 (){
+  var img = 'images/image42.webp';
+  document.getElementById('img').appendChild(img);
+}
+
