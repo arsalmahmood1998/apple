@@ -109,33 +109,3 @@ $(document).ready(function(event){
   });
 });
 
-
-// $(document).ready(function(){
-//   $(".article").scroll(function(){
-//     $("#cont18h1").slideUp();
-//   });
-//   $(".article").scroll(function(){
-//     $("#cont18h1").slideDown();
-//   });
-// });
-
-// $(window).scroll( function(){
-
-// /* Check the location of each desired element */
-// $('#cont18h1').each( function(i){
-
-//     var bottom_of_object = $(this).position().top + $(this).outerHeight();
-//     var bottom_of_window = $(window).scrollTop() + $(window).height();
-//      // If the object is completely visible in the window, fade it it 
-//       if( bottom_of_window < bottom_of_object && bottom_of_window > bottom_of_window + 1) {
-//       $(this).css("transform",'translate(0,-500px');
-//     }
-//     console.log(bottom_of_object);
-//     console.log(bottom_of_window);
-// }); 
-// }); 
-
-// $(document).ready(function(){
-//   $(".btn1").scroll(function(){
-//     $("article").fadeOut();
-//   });
