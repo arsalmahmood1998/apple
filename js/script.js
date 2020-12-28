@@ -110,7 +110,8 @@ $(document).ready(function(event){
 });
 
 function image1 (){
-  var img = 'images/image42.webp';
-  document.getElementById('img').appendChild(img);
+var img = document.createElement('img')
+img.src = 'images/image40.jpg';
+document.getElementById('img').appendChild(img);
 }
 
