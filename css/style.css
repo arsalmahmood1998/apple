@@ -1722,6 +1722,82 @@ footer > a:hover{
 }
 
 
+hr{
+    width: 1000px;
+    color: gray;
+    border: 1px solid;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#container50 > .row > #column1 > img{
+    padding-top: 35px;
+}
+
+#container50 > .row > .col > p{
+    padding-top: 25px;
+    color: gray;
+    font-size: 17px;
+}
+
+#container50 > .row > .col > #heading{
+    font-size: 20px;
+}
+
+#container51 > .row{
+    width: 1000px;
+    margin-left: 100px;
+}
+
+#white{
+    color: white;
+}
+
+#white:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+#container51> .row > .col{
+    padding-left: 0px;
+}
+
+#container51> .row > .col >p{
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#container51> .row > .col >h4{
+    text-align: left;
+}
+
+#container51> .row > .col >.row > .col >figcaption{
+    font-size: 12px;
+    color:gray;
+}
+
+#container51> #lastrow > .col > p{
+    padding-top: 50px;
+}
+
+#container51> .row > #column2 > img{
+    padding-top: 35px;
+}
+
+#displayupperpara{
+    font-weight: normal !important;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 17px;
+}
+#displaylowerpara{
+    padding-top: 10px;
+    font-weight: normal !important;
+    font-size: 13px;
+    text-align: left;
+}
 
 @media(max-width: 767px){
  .navbar{
@@ -3033,9 +3109,56 @@ span.line.top {
 }
 
 #container15 > .row > .col {
-    width: 100%;
-    float: left;
-    font-size: 30px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+#container15 > .row > .col > hr {
+    margin-left: 0px;
+}
+
+#container15 > .row > #col2 > hr {
+    margin-left: 0px;
+}
+
+#container15 > .row > .col > .button1 {
+    height: 30px;
+    width: 130px;
+    font-size: 15px;
+}
+
+#container17 {
+    width: 375px;
+    padding-top: 50px;
+}
+
+#container17 > .row{
+    width: 365px;
+    margin-left: 5px;
+}
+
+#container17 > .row > .col {
+
+    height: 150px;
+    width: 80px;
+    font-weight: normal;
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+
+#container17 > .row > .col > span {
+    font-size: 1.5em;
+    padding-left: 0px;
+    font-weight: normal;
+}
+
+#innerSpan {
+    font-size: 15px;
+    padding-left: 0px;
+    font-weight: normal;
 }
 
 #container18 {
@@ -3068,13 +3191,11 @@ span.line.top {
 }
 
 #container22 > .col-md-6 > .button1{
-    height: 40px;
-    width: 150px;
+    height: 30px;
+    width: 130px;
     border-radius: 25px;
-    font-size: 20px;
-    margin-left: 40px;
-    position: left;
-    margin-top: 0px;
+    font-size: 15px;
+    margin-top: 10px;
 }
 
 #container22 > .col-md-6 > img {
@@ -3343,7 +3464,6 @@ form label.selected {
 
 #container37 > .row > #innercontainer {
     width: 250px;
-    height: 130px;
 }
 
 #container37 > .row > #innercontainer > h1 {
