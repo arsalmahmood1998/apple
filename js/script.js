@@ -109,9 +109,13 @@ $(document).ready(function(event){
   });
 });
 
-function image1 (){
+function bluePhone (){
 var img = document.createElement('img')
-img.src = 'images/image40.jpg';
+img.src = 'images/image42.webp';
 document.getElementById('img').appendChild(img);
 }
 
+function stickyFunction(){
+     document.getElementById("container1").css("background-color", "1B1B1B" );
+     console.log($(window).scrollTop());
+}
