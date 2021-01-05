@@ -3942,6 +3942,71 @@ form label.selected {
 #container49 > #lastpara {
     font-size: 12px;
 }
+
+#container50 >.row > .col >h3{
+    font-size: 1.25em;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+#container50 > .row > #column1 > img {
+    width: 229px;
+    height: 240px;
+}
+
+#container50 > .row > .col > #heading {
+    font-size: 17px;
+}
+
+#container50 > .row > .col > p {
+    padding-top:5px;
+    color: gray;
+    font-size: 15px;
+}
+
+#container50 > .row > .col > img {
+    margin-top: 50px;
+    width: 251px;
+    height: 264px;
+    margin-left: 70px;
+}
+
+#container51 > .row{
+    width: 375px;
+    margin-left: 10px;
+}
+
+#container51 > .row > .col > #picRow {
+    padding-top: 50px;
+}
+
+#container51 > .row > #lowerColumn{
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+#container51 > .row > #upperColumn > img {
+    width: 255px;
+    height: 158px;
+}
+
+#container51 > .row > #lowerColumn > img{
+    width: 281px;
+    height: 176px;
+}
+
+#container51 > #lastrow > .col{
+    padding-left: 0px;
+}
+
+
 footer > p {
     font-size: 12px;
     margin-left: 10px;
