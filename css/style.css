@@ -16,7 +16,7 @@ html {
     list-style: none;
     background-color: black;
     color: white;
-    margin-left: 50px;
+    margin-left: 120px;
 }
 #nav li {
     list-style: none;
@@ -1799,6 +1799,151 @@ hr{
     text-align: left;
 }
 
+#container52 >.row >.col{
+    padding-top: 50px;
+    margin-left: 50px !important;
+}
+
+#container52 >.row >.col > p{
+    line-height: 1.8;
+    font-size: 17px;
+    color: #ffffff82;
+    text-align: left;
+}
+
+#container53 > .row > .col-md-9 >p{
+    text-align: left;
+    color: gray;
+    font-size: 17px;
+}
+
+#container53 > .row > .col-md-3{
+    padding-left: 70px;
+}
+
+#container53 > .row > .col-md-3 > h4{
+    text-align: left;
+}
+
+#container53 > .row > .col-md-7 > p{
+    text-align: left;
+    color: gray;
+}
+
+#container54 > .row > .col-md-9 > p{
+    text-align: left;
+    color: gray;
+    line-height: 0.9;
+    font-size: 18px;
+}
+
+#bluearrow:after {
+    content: '\02C3';
+    margin-left: 5px;
+}
+
+#techsup{
+    color: gray;
+    font-size: 1.25em;
+
+}
+
+#techsup:hover{
+    color: blue;
+    text-decoration: none;
+}
+#container56 > .row{
+    padding-top: 50px;
+}
+
+#container56 >.row >.col-md-3 >h4{
+    color: white;
+}
+
+#container56 >.row >.col-md-3,.col-md-6  > p{
+    color: gray;
+    font-size: 17px;
+    text-align: left;
+}
+
+#cont56left > p{
+    text-align: left;
+}
+
+#container57 >.row > .col-md-9 > p{
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+}
+
+#techsupwhite{
+    color: white;
+}
+
+#techsupwhite:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+#container58 >.row{
+    padding-left: 80px;
+}
+
+#container58 >.row> .col-md-3{
+    text-align: left;
+}
+
+#container58 >.row> .col-md-9{
+    background-image: url("../images/image50.jpg");
+    height: 604px;
+    background-repeat:no-repeat; 
+}
+
+#container58 >.row> .col-md-9 > .row >.col > figcaption{
+    color: gray; 
+    font-size: 13px;
+}
+
+#volume{
+     padding-left: 450px;
+}
+
+#container59 >.row >.col-md-4> p{
+    color: gray;
+    text-align: left;
+    line-height: 0.5;
+}
+
+#container59 >.row >.col-md-4>#margin{
+    margin-top: 30px;
+}
+#container59 > .row > #paddingtop{
+    padding-top: 30px;
+}
+
+#container59 > .row > .col-md-8{
+    color: gray;
+    text-align: left;
+}
+
+#container59 > .row > .col-md-8 >p{
+    text-align: left;
+}
+
+#container60 > .row > .col-md-8 >ul{
+    color: gray;
+    float:left;
+    font-size: 17logopx;
+}
+
+#container60 > .row {
+    padding-top: 50px;
+}
+
+#container60 > .row > .col-md-8 > #paddingtop {
+    padding-top: 40px;
+}
+
 @media(max-width: 767px){
  .navbar{
   padding:0px;
@@ -1812,6 +1957,7 @@ hr{
 
 #logo{
     margin-left: 0px;
+
 }
 
 #bag{
@@ -2718,6 +2864,11 @@ footer > a {
 }
 
 @media (max-width: 375px){
+
+#nav{
+    margin: 0px;
+}
+
 #wrapper{
     border-radius: 20px;
     margin-top: 20px;
@@ -3136,6 +3287,7 @@ span.line.top {
     width: 365px;
     margin-left: 5px;
 }
+
 
 #container17 > .row > .col {
 
